@@ -21,6 +21,8 @@
 #[comment = "A mathematics library for computer graphics."];
 #[license = "ASL2"];
 #[crate_type = "lib"];
+#[feature(globs)];
+#[feature(macro_rules)];
 
 pub mod array;
 pub mod matrix;
